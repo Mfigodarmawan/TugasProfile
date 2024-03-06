@@ -1,0 +1,45 @@
+body {
+    background-color: cornflowerblue;
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}  
